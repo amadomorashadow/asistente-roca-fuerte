@@ -1,6 +1,7 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
-import google.generativeai as genai
+#import google.generativeai as genai
+from google import genai
 from datetime import datetime
 import os
 
