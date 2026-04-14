@@ -4,6 +4,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from google import genai
 from datetime import datetime
 import os
+from google.ai.generativelanguage import GenerativeServiceClient
 
 # --- CONFIGURACIÓN ---
 TOKEN_TELEGRAM = '8615261340:AAEWxzIdmvZ6kIKptFuBxex550Y5ohgCytc' 
