@@ -7,13 +7,13 @@ import os
 
 # --- CONFIGURACIÓN ---
 TOKEN_TELEGRAM = '8615261340:AAEWxzIdmvZ6kIKptFuBxex550Y5ohgCytc' 
-LLAVE_GEMINI = 'AIzaSyBzMus71nwFk1D54cI3bme4pdXt_auigWY'
+API_KEY = 'AIzaSyBzMus71nwFk1D54cI3bme4pdXt_auigWY'
 
 # ⚠️ ID de Telegram para recibir capturas (obténido con @userinfobot)
 TU_ID_TELEGRAM = 6044120816
 
 # Inicialización
-client = genai.Client(api_key=LLAVE_GEMINI)
+client = genai.Client(api_key=API_KEY)
 bot = telebot.TeleBot(TOKEN_TELEGRAM)
 
 # --- VARIABLES PARA OFRENDAS ---
